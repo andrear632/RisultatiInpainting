@@ -17,4 +17,4 @@ for i in range(1,9):
     
     # Shows the image in image viewer
     #im1.show()
-    im1.save("/Users/andrearodriguez/rep/tesi_results/clip"+str(i)+"/ddnm+_1.png")
+    im1.save("/Users/andrearodriguez/rep/RisultatiInpainting/clip"+str(i)+"/ddnm+_1.png")
