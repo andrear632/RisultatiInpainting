@@ -2442,7 +2442,7 @@
     </div>
 
     <div class="container">
-        <div class="row fs-6 my-4">
+        <div class="row fs-6 my-3">
             <div>
                 * SDR = Signal Distortion Ratio
             </div>
@@ -2452,8 +2452,111 @@
         </div>
     </div>
 
-    <div>
+    <div class="container">
+        <div class="row mt-4 text-center">
+            <div class="col">
+                <div class="fs-4">Inference time</div><div class="fs-6">in Colab Free tier</div>
+            </div>
+        </div>
+        <div class="row fs-6 mt-2 mb-4">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col"></th>
+                        <th scope="col">Parameters</th>
+                        <th scope="col">1 Clip (minutes)</th>
+                        <th scope="col">Batch of 8 clips (minutes)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">AudioLDM</th>
+                        <td>DDIM T = 200</td>
+                        <td>1</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Tango + AudioLDM</th>
+                        <td></td>
+                        <td>10</td>
+                        <td>40</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Tango + DDNM</th>
+                        <td></td>
+                        <td>10</td>
+                        <td>40</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Tango + DDNM+</th>
+                        <td>travel length = 10</td>
+                        <td>120</td>
+                        <td>480</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Tango + RePaint</th>
+                        <td>number of resampling = 10</td>
+                        <td>100</td>
+                        <td>400</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Tango + RePaint Jump</th>
+                        <td>number of resampling = 10; jump size = 10</td>
+                        <td>100</td>
+                        <td>400</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
 
+    
+    <div class="container mb-5">
+        <div class="row mt-4 text-center">
+            <div class="col fs-4">
+                References
+            </div>
+        </div>
+        <div class="row fs-5 my-2 justify-content-center">
+            <div class="col-1">AudioLDM: </div>
+            <div class="col-3">
+                <a href="https://arxiv.org/abs/2301.12503" target="_blank">
+                    https://arxiv.org/abs/2301.12503
+                </a>
+            </div>
+        </div>
+        <div class="row fs-5 my-2 justify-content-center">
+            <div class="col-1">Tango: </div>
+            <div class="col-3">
+                <a href="https://arxiv.org/abs/2304.13731" target="_blank">
+                    https://arxiv.org/abs/2304.13731
+                </a>
+            </div>
+        </div>
+        <div class="row fs-5 my-2 justify-content-center">
+            <div class="col-1">DDNM: </div>
+            <div class="col-3">
+                <a href="https://arxiv.org/abs/2212.00490" target="_blank">
+                    https://arxiv.org/abs/2212.00490
+                </a>
+            </div>
+        </div>
+        <div class="row fs-5 my-2 justify-content-center">
+            <div class="col-1">RePaint: </div>
+            <div class="col-3">
+                <a href="https://arxiv.org/abs/2201.09865" target="_blank">
+                    https://arxiv.org/abs/2201.09865
+                </a>
+            </div>
+        </div>
+        <div class="row fs-5 my-2 justify-content-center">
+            <div class="col-1">DDPM: </div>
+            <div class="col-3">
+                <a href="https://arxiv.org/abs/2006.11239" target="_blank">
+                    https://arxiv.org/abs/2006.11239
+                </a>
+            </div>
+        </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
