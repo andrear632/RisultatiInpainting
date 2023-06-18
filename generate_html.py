@@ -77,12 +77,12 @@ for i in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]:
                                     <div class="accordion-body">
 
 
-                                        <div class="row mt-4 text-center">
+                                        <div class="row mt-1 text-center">
                                             <div class="col-2 fs-5">
                                                 AudioLDM
                                             </div>
                                             <div class="col-2 fs-5">
-                                                Tango (model) + AudioLDM (method)
+                                                Tango
                                             </div>
                                             <div class="col-2 fs-5">
                                                 Tango + DDNM
@@ -94,7 +94,7 @@ for i in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]:
                                                 Tango + RePaint
                                             </div>
                                             <div class="col-2 fs-5">
-                                                Tango + RePaint Jump
+                                                Tango + RePaint+
                                             </div>
                                         </div>
 
@@ -176,12 +176,12 @@ for i in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]:
                                 <div id="collapse%s" class="accordion-collapse collapse collapsed">
                                     <div class="accordion-body">
 
-                                        <div class="row mt-4 text-center">
+                                        <div class="row mt-1 text-center">
                                             <div class="col-2 fs-5">
                                                 AudioLDM
                                             </div>
                                             <div class="col-2 fs-5">
-                                                Tango (model) + AudioLDM (method)
+                                                Tango
                                             </div>
                                             <div class="col-2 fs-5">
                                                 Tango + DDNM
@@ -193,7 +193,7 @@ for i in [9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24]:
                                                 Tango + RePaint
                                             </div>
                                             <div class="col-2 fs-5">
-                                                Tango + RePaint Jump
+                                                Tango + RePaint+
                                             </div>
                                         </div>
 
