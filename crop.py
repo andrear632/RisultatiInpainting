@@ -26,7 +26,7 @@ for i in range(1, 9):
     #im1.save("/Users/andrearodriguez/rep/RisultatiInpainting/clip"+str(i)+"/original.png")
     #im1.save("/Users/andrearodriguez/rep/RisultatiInpainting/clip"+str(i)+"/cut_1.png")
     #im1.save("/Users/andrearodriguez/rep/RisultatiInpainting/clip"+str(i)+"/cut_2.png")
-    #im1.save("/Users/andrearodriguez/rep/RisultatiInpainting/clip"+str(i)+"/audioldm_1.png")
+    im1.save("/Users/andrearodriguez/rep/RisultatiInpainting/clip"+str(i)+"/audioldm_1.png")
     #im1.save("/Users/andrearodriguez/rep/RisultatiInpainting/clip"+str(i)+"/audioldm_2.png")
     #im1.save("/Users/andrearodriguez/rep/RisultatiInpainting/clip"+str(i)+"/tango_1.png")
     #im1.save("/Users/andrearodriguez/rep/RisultatiInpainting/clip"+str(i)+"/tango_2.png")
