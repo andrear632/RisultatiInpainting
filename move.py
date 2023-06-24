@@ -1,9 +1,9 @@
 import shutil
 
-for i in range(1, 17):
-    path_from = '/Users/andrearodriguez/Downloads/output/'+str(i)+'_inpainted.wav'
+for i in range(1, 9):
+    path_from = '/Users/andrearodriguez/Downloads/output/'+str(i)+'_output_0.wav'
+    #path_from = '/Users/andrearodriguez/Downloads/output/'+str(i)+'_inpainted.wav'
 
-    i = i+8
-    path_to = '/Users/andrearodriguez/rep/RisultatiInpainting/clip'+str(i)+'/repaintjump_2.wav'
+    path_to = '/Users/andrearodriguez/rep/RisultatiInpainting/clip'+str(i)+'/audioldm_2.wav'
 
     shutil.move(path_from, path_to)
